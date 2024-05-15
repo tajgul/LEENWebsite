@@ -417,3 +417,111 @@ footer {
   position: relative;
   z-index: 1;
 }
+
+/* ... (previous CSS code) ... */
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+
+  .logo img {
+    max-height: 50px;
+  }
+
+  .logo h1 {
+    font-size: 24px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
+  .hero {
+    padding: 150px 20px 50px;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .hero p {
+    font-size: 18px;
+  }
+
+  .launchlist-container {
+    margin-bottom: 30px;
+  }
+
+  .features {
+    padding: 50px 20px;
+  }
+
+  .features h2 {
+    font-size: 30px;
+  }
+
+  .feature-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .feature {
+    padding: 30px;
+  }
+
+  .feature h3 {
+    font-size: 20px;
+  }
+
+  .cta {
+    padding: 50px 20px;
+  }
+
+  .cta h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .team {
+    padding: 50px 20px;
+  }
+
+  .team h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .team-member img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .team-member h3 {
+    font-size: 20px;
+  }
+
+  .importance {
+    padding: 50px 20px;
+  }
+
+  .importance h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .importance-box {
+    flex-basis: 100%;
+  }
+}
