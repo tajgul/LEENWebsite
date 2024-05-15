@@ -141,6 +141,10 @@ nav ul li a:hover {
   z-index: 1;
 }
 
+.testbox {
+  z-index: 99999999;
+}
+
 /* Features section styles */
 .features {
   padding: 100px 20px;
@@ -407,4 +411,9 @@ footer {
   .importance-box {
     flex-basis: 100%;
   }
+}
+
+.launchlist-container {
+  position: relative;
+  z-index: 1;
 }
